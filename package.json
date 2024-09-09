@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",  // Use the correct start command for your framework
-    "build": "react-scripts build",  // Use the correct build command
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Rabnawaz",  // You can specify your name here
+  "author": "Rabnawaz",
   "license": "ISC",
-  "description": "A portfolio project built using [framework or tools]",
+  "description": "A portfolio project built using React",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3"  // If you're using React, adjust according to your framework
+    "react-scripts": "^4.0.3"
   }
 }
