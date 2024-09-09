@@ -1,19 +1,20 @@
 {
   "name": "myporfolio",
   "version": "1.0.0",
+  "description": "A portfolio website created with Flutter.",
   "main": "index.js",
   "scripts": {
-    "test": "\"react-scripts test\""
+    "start": "flutter run",
+    "build": "flutter build web",
+    "deploy": "echo \"Deploy command here\" && exit 0",
+    "test": "echo \"No tests specified\" && exit 0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rabnawaz73/MyPorfolio.git"
-  },
-  "author": "\"Rabnawaz\"",
+  "author": "Rabnawaz",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rabnawaz73/MyPorfolio/issues"
+  "dependencies": {
+    // Add any dependencies if needed
   },
-  "homepage": "https://github.com/rabnawaz73/MyPorfolio#readme",
-  "description": ""
+  "devDependencies": {
+    // Add any devDependencies if needed
+  }
 }
