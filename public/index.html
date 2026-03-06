@@ -1,286 +1,584 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="RAB NAWAZ, portfolio, Rabnawaz, Flutter dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
-    <meta name="description" content="Welcome to Rabnawaz's Portfolio. Flutter Developer and Android App Developer" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Rab Nawaz, Flutter developer, AI apps, mobile developer, portfolio, Pakistan">
+  <meta name="description" content="Rab Nawaz — Flutter & AI App Developer. Building mobile and web products with Flutter, Next.js, and Firebase.">
+  <meta property="og:title" content="Rab Nawaz | Flutter & AI App Developer">
+  <meta property="og:description" content="Projects, experience, and achievements in Flutter, AI, and data visualization.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/public/assets/images/hero-portrait.png">
 
-    <link id='favicon' rel="shortcut icon" href="/assets/images/favicon.PNG" type="image/x-png">
-    <title>Portfolio | RAB NAWAZ</title>
+  <link rel="stylesheet" href="/public/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link id="favicon" rel="shortcut icon" href="/public/assets/images/favicon.png" type="image/x-png">
+  <title>Rab Nawaz | Flutter & AI App Developer</title>
 </head>
-<body oncontextmenu="return false">
+<body>
+  <div id="preloader">
+    <img src="/public/assets/images/preloader-animation.gif" alt="Loading animation">
+    <span>Loading portfolio...</span>
+  </div>
 
+  <header>
+    <a href="#home" class="logo">Rab Nawaz</a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<header>
-        <a href="#home" class="logo"> Rabnawaz</a>
-
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-</header>
-<!-- navbar ends -->
-
-
-
-<section class="home" id="home">
+  <section class="home" id="home">
     <div id="particles-js"></div>
-
     <div class="content">
-    <h2>Hi There,<br/> I'm RAB <span>NAWAZ</span></h2>
-    <p>i am into Flutter Development</span></p>
-    <a href="#about" class="btn"><span>About Me</span>
-      <i class="fas fa-arrow-circle-down"></i>
-    </a>
-    <div class="socials">
-        <ul class="social-icons">
-          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
-          <li><a class="github" aria-label="GitHub" href="https://github.com/Rabnawaz73" target="_blank"><i class="fab fa-github"></i></a></li>
-          <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="telegram" aria-label="Telegram" href="https://t.me/" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/rabnawazbangulzai777/"><i class="fab fa-instagram" target="_blank"></i></a></li>
-          <li><a class="dev" aria-label="Dev" href="https://dev.to/" target="_blank"><i class="fab fa-dev"></i></a></li>
+      <img class="hero-avatar" src="/public/assets/images/coming-soon-illustration.png" alt="Product illustration">
+      <p class="eyebrow">Flutter • AI Apps • Data Visualization</p>
+      <h1>Rab Nawaz</h1>
+      <h2>Flutter & AI App Developer</h2>
+      <p class="lead">
+        I build high‑quality mobile and web products with Flutter, Next.js, and Firebase.
+        Experienced in AI‑powered apps, data visualization, and product delivery with clean architecture.
+      </p>
+      <p class="typing">Currently focused on <span class="typing-text"></span></p>
+      <div class="cta">
+        <a href="#projects" class="btn primary">View Projects</a>
+        <a href="/public/assets/Rabnawaz_CV_Resume.pdf" class="btn ghost" target="_blank" rel="noopener">Download CV</a>
+      </div>
+      <div class="socials">
+        <a class="icon linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/rabnawaz-bangulzai/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        <a class="icon github" aria-label="GitHub" href="https://github.com/rabnawaz73" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a class="icon mail" aria-label="Email" href="mailto:rabnawazoficial@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+      <div class="highlights">
+        <div class="highlight">
+          <span class="value">3</span>
+          <span class="label">Internships</span>
+        </div>
+        <div class="highlight">
+          <span class="value">7+</span>
+          <span class="label">Projects</span>
+        </div>
+        <div class="highlight">
+          <span class="value">5</span>
+          <span class="label">Awards</span>
+        </div>
+      </div>
+    </div>
+    <div class="image">
+      <img draggable="false" class="tilt" src="/public/assets/images/hero-portrait.png" alt="Rab Nawaz portrait">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-title">
+      <h2>About</h2>
+      <p>Focused on building scalable Flutter apps and AI‑driven experiences.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Professional Summary</h3>
+        <p>
+          Flutter developer based in Pakistan with experience leading teams and delivering production‑ready
+          apps. Strong in mobile architecture, data visualization, and AI product workflows.
+        </p>
+        <ul class="about-list">
+          <li>Team lead for a 5‑member Flutter learning app project.</li>
+          <li>Star Performer in data visualization internship.</li>
+          <li>Projects across AI chat, health companions, and video tools.</li>
+        </ul>
+      </div>
+      <div class="about-card">
+        <h3>Core Focus</h3>
+        <ul class="pill-list">
+          <li>Flutter & Dart</li>
+          <li>AI Applications</li>
+          <li>Next.js & TypeScript</li>
+          <li>Firebase & Cloud</li>
+          <li>Data Visualization</li>
+          <li>Product Delivery</li>
+        </ul>
+        <div class="contact-mini">
+          <span><i class="fas fa-map-marker-alt"></i> Pakistan</span>
+          <span><i class="fas fa-envelope"></i> rabnawazoficial@gmail.com</span>
+        </div>
+      </div>
+      <div class="about-card about-image">
+        <img src="/public/assets/images/profile-portrait-suit.jpg" alt="Rab Nawaz formal portrait">
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="section-title">
+      <h2>Skills</h2>
+      <p>Tools and technologies I work with.</p>
+    </div>
+    <div class="skills-showcase">
+      <div class="skills-panel">
+        <div class="skill-group">
+          <div class="skill-head">
+            <i class="fas fa-code"></i>
+            <div>
+              <h4>Programming Languages</h4>
+              <span>Core languages I use daily</span>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span>Python</span>
+            <span>Dart</span>
+            <span>TypeScript</span>
+            <span>Java</span>
+            <span>C++</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-head">
+            <i class="fas fa-mobile-alt"></i>
+            <div>
+              <h4>Mobile & Web</h4>
+              <span>App and web delivery stack</span>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span>Flutter</span>
+            <span>Next.js</span>
+            <span>REST APIs</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Tailwind CSS</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-head">
+            <i class="fas fa-database"></i>
+            <div>
+              <h4>Databases</h4>
+              <span>Data storage and persistence</span>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span>Firebase Firestore</span>
+            <span>SQLite</span>
+            <span>Hive</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-head">
+            <i class="fas fa-brain"></i>
+            <div>
+              <h4>Data & AI</h4>
+              <span>Analysis, insights, and AI tooling</span>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span>Data Analysis</span>
+            <span>Visualization</span>
+            <span>KPI Analysis</span>
+            <span>Basic ML</span>
+            <span>Hugging Face</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-head">
+            <i class="fas fa-cloud"></i>
+            <div>
+              <h4>Cloud & DevOps</h4>
+              <span>Deployment and collaboration</span>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span>Firebase</span>
+            <span>Vercel</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>CI/CD Basics</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-head">
+            <i class="fas fa-layer-group"></i>
+            <div>
+              <h4>Specialized Areas</h4>
+              <span>Focus areas and advanced skills</span>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span>AI Applications</span>
+            <span>Agentic Systems</span>
+            <span>Mobile Development</span>
+            <span>Cybersecurity & OSINT</span>
+          </div>
+        </div>
+      </div>
+      <div class="skills-visual">
+        <img src="/public/assets/images/laptop-code-illustration.jpg" alt="Laptop illustration with code">
+        <div class="skill-callout">
+          <h5>Workflow</h5>
+          <p>Design → Build → Test → Deploy</p>
+        </div>
+        <img src="/public/assets/images/laptop-code-illustration-alt.jpg" alt="Laptop illustration alternative">
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="section-title">
+      <h2>Experience</h2>
+      <p>Internships and applied industry work.</p>
+    </div>
+    <div class="experience-grid">
+      <div class="exp-card">
+        <div class="exp-head">
+          <h3>Mobile App Development (Team Lead)</h3>
+          <span>Excelerate · Remote</span>
+          <span class="date">Oct 2025 – Nov 2025</span>
+        </div>
+        <ul>
+          <li>Led a 5‑member team building a Flutter online learning app.</li>
+          <li>Architected a modular codebase with Provider state management.</li>
+          <li>Delivered search, profile, settings, and persistent dark mode.</li>
+          <li>Managed code reviews, tasks, and documentation via GitHub.</li>
+        </ul>
+      </div>
+      <div class="exp-card">
+        <div class="exp-head">
+          <h3>Data Visualization (Star Performer)</h3>
+          <span>Excelerate · Remote</span>
+          <span class="date">Aug 2025 – Sep 2025</span>
+        </div>
+        <ul>
+          <li>Analyzed 11 campaigns across 9 regions and 3 age groups.</li>
+          <li>Built KPI dashboards with CTR, CPR, ULC, and cost efficiency.</li>
+          <li>Identified high‑performing segments and optimization actions.</li>
+        </ul>
+      </div>
+      <div class="exp-card">
+        <div class="exp-head">
+          <h3>Project Management Associate</h3>
+          <span>Excelerate · Remote</span>
+          <span class="date">Aug 2025 – Sep 2025</span>
+        </div>
+        <ul>
+          <li>Evaluated AI PM tools (ClickUp, Monday, Asana, Trello).</li>
+          <li>Designed workflows with dependencies and milestone tracking.</li>
+          <li>Applied AI forecasting to identify risks and bottlenecks.</li>
         </ul>
       </div>
     </div>
-<div class="image">
-    <img draggable="false" class="tilt" src="/assets/images/hero.PNG" alt="">
-</div>
-</section>
+  </section>
 
-<section class="about" id="about">
-    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
-    
-    <div class="row">
-
-    <div class="image">
-        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
+  <section class="projects" id="projects">
+    <div class="section-title">
+      <h2>Projects</h2>
+      <p>Selected work showcasing mobile, AI, and data applications.</p>
     </div>
-    <div class="content">
-        <h3>I'm Rabnawaz</h3>
-        <span class="tag">Flutter Developer</span>
-        
-        <p>I am a Flutter developer based in Quetta, Pakistan. 
-          I am a Computer Science Inter from AHRSC&Z.
-          I am very passionate about improving my coding skills & developing applications & websites.
-          I build WebApps and Websites using Flutter.
-          Working for myself to improve my skills.
-          Love to build Flutter Projects. </p>
-        
-        <div class="box-container">
-          
-            <div class="box">
-              <p><span> email : </span> rabnawazoficial@gmail.com</p>
-              <p><span> place : </span> Quetta, Pakistan - 87300</p>
-            </div>
-        </div>
-        
-        <div class="resumebtn">
-            <a href="https://drive.google.com/file/d/1dw7ouITK3pdIFPvLNiwQzwDA922hA2xc/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
-                <i class="fas fa-chevron-right"></i>
-            </a>
-        </div>
-
-    </div>
-    </div>
-</section>
-<!-- about section ends -->
-
-<!-- skills section starts -->
-
-<!-- skills section ends -->
-
-
-<!-- education section starts -->
-<section class="education" id="education">
-
-  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
-
-    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
-
-    <div class="box-container">
-
-    <div class="box">
-        <div class="image">
-        <img draggable="false" src="./assets/images/educat/college.jpg" alt="">
-        </div>
-        <div class="content">
-        <h3>Intermediate in Computer Science</h3>
-        <p>Al-Hijrah Residential School and College | AHRSC&Z</p>
-        <h4>2023-2025 | Pursuing</h4>
-        </div>
-    </div>
-
-    <div class="box">
-      <div class="image">
-      <img draggable="false" src="./assets/images/educat/school.jpg" alt="">
-      </div>
-      <div class="content">
-      <h3>Matric Science | Computer Science</h3>
-      <p>Al-Hijrah Residential School and College | AHRSC&Z</p>
-      <h4>2021-2023 | Completed</h4>
-      </div>
-    </div>
-
-</div>
-</section>
-
-<section class="experience" id="experience">
-
-  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
-
-  <div class="timeline">
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2>Self Employed</h2>
-        </div>
-        <div class="desc">
-            <h3>Flutter Developer</h3>
-            <p>Oct 2023 - present</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>Self Employed</h2>
-        </div>
-        <div class="desc">
-            <h3>Web Developer | Self</h3>
-            <p>Feb 2024 - Present</p>
-        </div>
-      </div>
-    </div>
-
-
-</div>
-
-</section>
-<!-- experience section ends -->
-
-<section class="contact" id="contact">
-  
-  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
-
-  <div class="container">
-    <div class="content">
-      <div class="image-box">
-        <img draggable="false" src="./assets/images/contact1.png" alt="">
-      </div>
-    <form id="contact-form">
-      
-      <div class="form-group">
-        <div class="field">
-          <input type="text" name="name" placeholder="Name" required>
-          <i class='fas fa-user'></i>
-        </div>
-        <div class="field">
-          <input type="text" name="email" placeholder="Email" required>
-          <i class='fas fa-envelope'></i>
-        </div>
-        <div class="field">
-          <input type="text" name="phone" placeholder="Phone">
-          <i class='fas fa-phone-alt'></i>
-        </div>
-        <div class="message">
-        <textarea placeholder="Message" name="message" required></textarea>
-        <i class="fas fa-comment-dots"></i>
-        </div>
-        <div class="button-area">
-          <button type="submit">
-            Submit <i class="fa fa-paper-plane"></i></button>
-        </div>
-        </div>
-    </form>
-  </div>
-  </div>
-</section>
-<!-- contact section ends -->
-
-
-<!-- footer section starts -->
-<section class="footer">
-
-  <div class="box-container">
-
-      <div class="box">
-          <h3>Rabnawaz's Portfolio</h3>
-          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
-      </div>
-
-      <div class="box">
-          <h3>quick links</h3>
-          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
-      </div>
-
-      <div class="box">
-          <h3>contact info</h3>
-          <p> <i class="fas fa-phone"></i>+92 XXX-XXX-XXXX</p>
-          <p> <i class="fas fa-envelope"></i>rabnawazoficial@gmail.com</p>
-          <p> <i class="fas fa-map-marked-alt"></i>Quetta, Pakistan-87300</p>
-          <div class="share">
-
-              <a href="https://www.linkedin.com/in/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
-              <a href="https://github.com/Rabnawaz73" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
-              <a href="mailto:rabnawazoficial@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
-              <a href="https://twitter.com/" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
-              <a href="https://t.me/" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+    <div class="featured-projects">
+      <article class="featured-card">
+        <img src="/public/assets/images/laptop-code-illustration.jpg" alt="Project illustration">
+        <div class="featured-body">
+          <div class="project-badge">AI · Mobile</div>
+          <h3>Novatalk</h3>
+          <p>AI chat app with Gemini responses, multi‑session history, and secure authentication.</p>
+          <div class="project-tags">
+            <span>Flutter</span><span>Gemini API</span><span>Firebase</span><span>Hive</span>
           </div>
+          <div class="project-actions">
+            <a class="btn ghost" href="https://github.com/rabnawaz73/Novatalk" target="_blank" rel="noopener">Code</a>
+          </div>
+        </div>
+      </article>
+      <article class="featured-card">
+        <img src="/public/assets/images/laptop-code-illustration-alt.jpg" alt="Project illustration">
+        <div class="featured-body">
+          <div class="project-badge">AI · Web</div>
+          <h3>Nuskha‑e‑Sehat</h3>
+          <p>Agentic AI health companion with multimodal inputs and 10+ AI agents.</p>
+          <div class="project-tags">
+            <span>Next.js</span><span>TypeScript</span><span>Genkit</span><span>Firebase</span>
+          </div>
+          <div class="project-actions">
+            <a class="btn ghost" href="https://github.com/rabnawaz73/nuskha-e-sehat" target="_blank" rel="noopener">Code</a>
+          </div>
+        </div>
+      </article>
+      <article class="featured-card">
+        <img src="/public/assets/images/contact-support-illustration.png" alt="Project illustration">
+        <div class="featured-body">
+          <div class="project-badge">Mobile · Backend</div>
+          <h3>WidMate</h3>
+          <p>Cross‑platform video downloader with FastAPI backend and progress tracking.</p>
+          <div class="project-tags">
+            <span>Flutter</span><span>FastAPI</span><span>yt‑dlp</span><span>Riverpod</span>
+          </div>
+          <div class="project-actions">
+            <a class="btn ghost" href="https://github.com/rabnawaz73/Widmate" target="_blank" rel="noopener">Code</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="projects-subtitle">
+      <h3>Other Projects</h3>
+      <p>More work that shows breadth across mobile, data, and PM.</p>
+    </div>
+    <div class="projects-grid modern-projects">
+      <article class="project-card modern">
+        <div class="project-badge">Mobile · Utility</div>
+        <h3>WordWonder Dictionary</h3>
+        <p>Vocabulary builder with phonetics, examples, search history, and AdMob.</p>
+        <div class="project-tags">
+          <span>Flutter</span><span>REST APIs</span><span>AdMob</span>
+        </div>
+      </article>
+      <article class="project-card modern">
+        <div class="project-badge">Team Lead</div>
+        <h3>MADG28 Learning App</h3>
+        <p>Online learning platform led as team lead with modular architecture and docs.</p>
+        <div class="project-tags">
+          <span>Flutter</span><span>Provider</span><span>GitHub</span>
+        </div>
+      </article>
+      <article class="project-card modern">
+        <div class="project-badge">Data</div>
+        <h3>Ad Campaign Performance Analysis</h3>
+        <p>Data‑driven analysis with scale/trim/pause recommendations.</p>
+        <div class="project-tags">
+          <span>Python</span><span>Data Visualization</span><span>Excel</span>
+        </div>
+      </article>
+      <article class="project-card modern">
+        <div class="project-badge">PM · AI</div>
+        <h3>AI in Project Management</h3>
+        <p>AI‑assisted PM workflows for a global career fair initiative.</p>
+        <div class="project-tags">
+          <span>ClickUp</span><span>Monday</span><span>Asana</span><span>Trello</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="stack-strip">
+    <div class="stack-inner">
+      <span>Flutter</span>
+      <span>FastAPI</span>
+      <span>Gemini API</span>
+      <span>Firebase</span>
+      <span>Python</span>
+      <span>AI Agents</span>
+      <span>Data Analysis</span>
+    </div>
+  </section>
+
+  <section class="awards" id="awards">
+    <div class="section-title">
+      <h2>Honors & Awards</h2>
+      <p>Recognitions for innovation, performance, and academic excellence.</p>
+    </div>
+    <div class="awards-grid">
+      <div class="award-card">
+        <h4>Winner, Science Project Exhibition (District)</h4>
+        <p>Rain Detector Project · Sep 2023</p>
       </div>
-  </div>
+      <div class="award-card">
+        <h4>Winner, Science Project Exhibition (School)</h4>
+        <p>NovaTalk AI App · Nov 2024</p>
+      </div>
+      <div class="award-card">
+        <h4>Star Performer Award</h4>
+        <p>Excelerate Data Visualization Internship · 2025</p>
+      </div>
+      <div class="award-card">
+        <h4>Best Book Reader of the Year</h4>
+        <p>15 books in one academic year · 2022</p>
+      </div>
+      <div class="award-card">
+        <h4>2nd Position, Quiz Competition</h4>
+        <p>Life of Prophet Muhammad (PBUH) · 2022</p>
+      </div>
+    </div>
+  </section>
 
-  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/"> Rabnawaz</a></h1>
+  <section class="leadership" id="leadership">
+    <div class="section-title">
+      <h2>Leadership & Impact</h2>
+      <p>Team leadership, coordination, and community involvement.</p>
+    </div>
+    <div class="leadership-grid">
+      <div class="lead-card">
+        <h4>Team Lead — MADG28 Learning App</h4>
+        <p>Led a 5‑member team, managed timelines, code reviews, and documentation.</p>
+        <span>Oct 2025 – Nov 2025</span>
+      </div>
+      <div class="lead-card">
+        <h4>Active Member of the Year — Management Club</h4>
+        <p>Organized academic and extracurricular events.</p>
+        <span>2024</span>
+      </div>
+      <div class="lead-card">
+        <h4>Event Volunteer & Coordinator</h4>
+        <p>Supported planning, logistics, and event execution.</p>
+        <span>2023 – 2024</span>
+      </div>
+      <div class="lead-card">
+        <h4>Photography Volunteer</h4>
+        <p>Documented events and supported the event management team.</p>
+        <span>2024</span>
+      </div>
+    </div>
+  </section>
 
-</section>
-<!-- footer section ends -->
+  <section class="education" id="education">
+    <div class="section-title">
+      <h2>Education</h2>
+      <p>Academic background.</p>
+    </div>
+    <div class="education-grid">
+      <div class="edu-card">
+        <img src="/public/assets/images/educat/school-campus-aerial.jpg" alt="School campus aerial view">
+        <h4>Higher Secondary School Certificate (Science)</h4>
+        <p>Al‑Hijrah Residential School and College (Jinnah Campus), Ziarat</p>
+        <span>June 2025 · Grade 75%</span>
+      </div>
+      <div class="edu-card">
+        <img src="/public/assets/images/educat/school-campus-aerial-alt.jpg" alt="School campus aerial view alternate">
+        <h4>Secondary School Certificate (Science)</h4>
+        <p>Al‑Hijrah Residential School and College (Jinnah Campus), Ziarat</p>
+        <span>May 2023 · Grade 83%</span>
+      </div>
+    </div>
+  </section>
 
+  <section class="certifications" id="certifications">
+    <div class="section-title">
+      <h2>Certifications by Skill Area</h2>
+      <p>Certifications selected to support applied AI, mobile systems, and data-driven decision making.</p>
+    </div>
+    <div class="certs-wrap">
+      <div class="cert-group">
+        <h4>Mobile & Product Development</h4>
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1fSIYgEwrOTWMt4YsXjpywk0OfKqqFH4I/view" target="_blank" rel="noopener">Flutter Development Internship</a></li>
+          <li><a href="https://drive.google.com/file/d/1W7SjAJZuJIrSzF5pHqfrsoJA_9jjLZHm/view" target="_blank" rel="noopener">Project Management Internship</a></li>
+        </ul>
+      </div>
+      <div class="cert-group">
+        <h4>Data & Analytics</h4>
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1OGP7Hk_S9oz5JyNE0bSUdvCsWjpoiwMR/view" target="_blank" rel="noopener">Data Visualization Internship</a></li>
+        </ul>
+      </div>
+      <div class="cert-group">
+        <h4>AI & Prompting</h4>
+        <ul>
+          <li><a href="https://drive.google.com/file/d/1BIZemD2eIpdypaCY_fhdC93R6ldyT7Lz/view" target="_blank" rel="noopener">Google Prompting Essentials</a></li>
+        </ul>
+      </div>
+      <div class="cert-group">
+        <h4>Python & Automation</h4>
+        <ul>
+          <li><a href="https://coursera.org/verify/NCBWUKWZRSJZ" target="_blank" rel="noopener">Using Python to Interact with the Operating System</a></li>
+          <li><a href="https://www.coursera.org/account/accomplishments/verify/QFPRZ75OJZ6E" target="_blank" rel="noopener">Crash Course on Python</a></li>
+        </ul>
+      </div>
+      <div class="cert-group">
+        <h4>Developer Tools</h4>
+        <ul>
+          <li><a href="https://coursera.org/verify/IWCJNEDFA9RZ" target="_blank" rel="noopener">Introduction to Git and GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-<!-- scroll top btn -->
-<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
-<!-- scroll back to top -->
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <p class="section-kicker">Interested in collaboration or research?</p>
+      <h2>Get in Touch</h2>
+      <p>Open to research collaboration, AI product work, and academic opportunities.</p>
+    </div>
+    <div class="contact-modern">
+      <div class="contact-panel">
+        <h3>Let’s connect</h3>
+        <p class="contact-lead">Open to research, scholarship, and product‑building opportunities.</p>
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:rabnawazoficial@gmail.com">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <span>Email</span>
+              <strong>rabnawazoficial@gmail.com</strong>
+            </div>
+          </a>
+          <div class="contact-card">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <span>Phone</span>
+              <strong>+92 370 259 5498</strong>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <span>Location</span>
+              <strong>Pakistan</strong>
+            </div>
+          </div>
+        </div>
+        <div class="socials">
+          <a class="icon linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/rabnawaz-bangulzai/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+          <a class="icon github" aria-label="GitHub" href="https://github.com/rabnawaz73" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+          <a class="icon mail" aria-label="Email" href="mailto:rabnawazoficial@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="contact-illustration">
+          <img src="/public/assets/images/contact-envelope-illustration.png" alt="Contact illustration">
+        </div>
+      </div>
+      <form id="contact-form" class="contact-form modern-form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="Your email" required>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Briefly describe your inquiry or collaboration idea" required></textarea>
+        </div>
+        <button type="submit" class="btn primary">
+          <span>Start a Conversation</span>
+          <img class="btn-loader" src="/public/assets/images/loader-animation.gif" alt="Sending">
+        </button>
+        <p class="trust-line">I usually respond within 24–48 hours.</p>
+      </form>
+    </div>
+  </section>
 
+  <section class="footer">
+    <div class="footer-inner">
+      <p>© 2026 Rab Nawaz. Built with care for modern web and mobile experiences.</p>
+      <a href="#home" class="back-top">Back to top</a>
+    </div>
+  </section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
 
-<!-- typed.js cdn -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- particle.js links -->
-<script src="./assets/js/particles.min.js"></script>
-<script src="./assets/js/app.js"></script>
-
-<!-- vanilla tilt.js links -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- scroll reveal anim -->
-<script src="https://unpkg.com/scrollreveal"></script>
-
-<script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
-    ></script>
-
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
-
-<script src="./assets/js/script.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/public/assets/js/particles.min.js"></script>
+  <script src="/public/assets/js/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="/public/assets/js/script.js"></script>
 </body>
 </html>
