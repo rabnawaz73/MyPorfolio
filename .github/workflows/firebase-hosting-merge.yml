@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set Up Node.js
@@ -21,11 +21,10 @@ jobs:
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
 
-      # Save service account key to file
       - name: Write Service Account Key
         run: echo "${{ secrets.GCP_SERVICE_ACCOUNT_KEY }}" > $HOME/firebase-service-account.json
 
       - name: Deploy to Firebase Hosting
-        run: firebase deploy --only hosting:your-site-name
+        run: firebase deploy --only hosting:rabnawazportfolio
         env:
           GOOGLE_APPLICATION_CREDENTIALS: $HOME/firebase-service-account.json
