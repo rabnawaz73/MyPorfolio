@@ -29,8 +29,8 @@ jobs:
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v2
 
-      - name: Deploy to Firebase Hosting
-        run: firebase deploy --only hosting:rabnawazportfolio
-
       - name: Configure Firebase Target
         run: firebase target:apply hosting rabnawazportfolio rabnawazportfolio
+
+      - name: Deploy to Firebase Hosting
+        run: firebase deploy --only hosting:rabnawazportfolio
